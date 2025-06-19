@@ -1,0 +1,48 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff0f5;
+  text-align: center;
+  padding: 30px;
+}
+
+.caixa-cartas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  padding: 10px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+
+.carta {
+  background: white;
+  border: 2px solid #c2185b;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100px;
+}
+.carta:hover {
+  transform: scale(1.05);
+  background-color: #ffe4ec;
+}
+
+.mensagem {
+  display: none;
+  margin-top: 30px;
+  padding: 20px;
+  font-size: 20px;
+  background: white;
+  border: 2px dashed #c2185b;
+  border-radius: 15px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
